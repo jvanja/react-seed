@@ -1,7 +1,7 @@
 {
   "name": "React Seed",
   "version": "0.0.1",
-  "description": "Bootstrap for ReactJS project with Babelify, Watchify and BrowserSync",
+  "description": "Starter Kit for React project with Babelify, Watchify, Bootstrap and BrowserSync",
   "main": "index.js",
 	"repository": {
     "type": "git",
