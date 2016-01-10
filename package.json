@@ -1,16 +1,20 @@
 {
-  "name": "react-seed",
+  "name": "React Seed",
   "version": "0.0.1",
-  "description": "Bootstrap for ReactJS project with Babelify and Watchify ",
+  "description": "Bootstrap for ReactJS project with Babelify, Watchify and BrowserSync",
   "main": "index.js",
+	"repository": {
+    "type": "git",
+    "url": "git://github.com/jvanja/react-seed"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js",
     "open": "browser-sync start --server 'public' --files 'public/**.*'",
     "start": "parallelshell \"npm run watch\" \"npm run open\""
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Vanja Jelic",
+  "license": "MIT",
   "devDependencies": {
     "babel-preset-react": "^6.3.13",
     "babelify": "^7.2.0",
