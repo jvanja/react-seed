@@ -1,5 +1,5 @@
 {
-  "name": "React Seed",
+  "name": "ReactSeed",
   "version": "0.0.1",
   "description": "Starter Kit for React project with Babelify, Watchify, Bootstrap and BrowserSync",
   "main": "index.js",
